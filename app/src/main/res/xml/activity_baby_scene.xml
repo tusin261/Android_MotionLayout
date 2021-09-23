@@ -9,6 +9,9 @@
         motion:duration="1000">
        <KeyFrameSet>
        </KeyFrameSet>
+        <OnClick motion:targetId="@+id/img_media" motion:clickAction="transitionToEnd">
+
+        </OnClick>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
